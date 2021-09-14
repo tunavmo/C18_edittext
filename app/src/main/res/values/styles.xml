@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="default_edittext" parent="android:Widget.EditText">
+        <item name="android:textColorHint">@color/default_et_outline</item>
+        <item name="android:background">@drawable/default_et</item>
+        <item name="android:textColor">@color/default_et_outline</item>
+        <item name="android:paddingLeft">@dimen/dimen15dp</item>
+        <item name="android:layout_margin">@dimen/dimen10dp</item>
+        <item name="android:hint">@string/value</item>
+        <item name="singleLine">true</item>
+    </style>
+
+    <style name="focus_edittext" parent="android:Widget.EditText">
+        <item name="android:textColorHint">@color/default_et_outline</item>
+        <item name="android:background">@drawable/focus_et</item>
+        <item name="android:textColor">@color/default_et_outline</item>
+        <item name="android:paddingLeft">@dimen/dimen15dp</item>
+        <item name="android:layout_margin">@dimen/dimen10dp</item>
+        <item name="android:hint">@string/value</item>
+        <item name="singleLine">true</item>
+    </style>
+
+    <style name="focus_filled_edittext" parent="android:Widget.EditText">
+        <item name="android:textColorHint">@color/white</item>
+        <item name="android:background">@drawable/focus_et</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:paddingLeft">@dimen/dimen15dp</item>
+        <item name="android:layout_margin">@dimen/dimen10dp</item>
+        <item name="android:hint">@string/value</item>
+        <item name="singleLine">true</item>
+    </style>
+
+    <style name="filled_edittext" parent="android:Widget.EditText">
+        <item name="android:textColorHint">@color/white</item>
+        <item name="android:background">@drawable/focus_et</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:paddingLeft">@dimen/dimen15dp</item>
+        <item name="android:layout_margin">@dimen/dimen10dp</item>
+        <item name="android:hint">@string/value</item>
+        <item name="singleLine">true</item>
+    </style>
+
+    <style name="error_edittext" parent="android:Widget.EditText">
+        <item name="android:textColorHint">@color/white</item>
+        <item name="android:background">@drawable/error_et</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:paddingLeft">@dimen/dimen15dp</item>
+        <item name="android:layout_margin">@dimen/dimen10dp</item>
+        <item name="android:hint">@string/value</item>
+        <item name="singleLine">true</item>
+    </style>
+
+    <style name="success_edittext" parent="android:Widget.EditText">
+        <item name="android:textColorHint">@color/white</item>
+        <item name="android:background">@drawable/success_et</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:paddingLeft">@dimen/dimen15dp</item>
+        <item name="android:layout_margin">@dimen/dimen10dp</item>
+        <item name="android:hint">@string/value</item>
+        <item name="singleLine">true</item>
+    </style>
+
+    <style name="deactivated_edittext" parent="android:Widget.EditText">
+        <item name="android:textColorHint">@color/deactivated_et_outline</item>
+        <item name="android:background">@drawable/deactivated_et</item>
+        <item name="android:textColor">@color/deactivated_et_outline</item>
+        <item name="android:paddingLeft">@dimen/dimen15dp</item>
+        <item name="android:layout_margin">@dimen/dimen10dp</item>
+        <item name="android:hint">@string/value</item>
+        <item name="singleLine">true</item>
+    </style>
+
+    <style name="default_text_input_layout" parent="android:Widget.EditText">
+        <item name="android:layout_margin">@dimen/dimen10dp</item>
+        <item name="android:textColorHint">@color/default_et_outline</item>
+        <item name="passwordToggleEnabled">true</item>
+        <item name="passwordToggleTint">@color/white</item>
+    </style>
+    <style name="default_text_input_et"  parent="android:Widget.EditText">
+        <item name="android:background">@drawable/default_et</item>
+        <item name="android:hint">@string/value</item>
+        <item name="android:textColorHint">@color/default_et_outline</item>
+        <item name="android:inputType">textPassword</item>
+    </style>
+
+    <style name="focus_text_input_layout" parent="android:Widget.EditText">
+        <item name="android:layout_margin">@dimen/dimen10dp</item>
+        <item name="android:textColorHint">@color/default_et_outline</item>
+        <item name="passwordToggleEnabled">true</item>
+        <item name="passwordToggleTint">@color/white</item>
+    </style>
+    <style name="focus_text_input_et"  parent="android:Widget.EditText">
+        <item name="android:background">@drawable/focus_et</item>
+        <item name="android:hint">@string/value</item>
+        <item name="android:textColorHint">@color/default_et_outline</item>
+        <item name="android:inputType">textPassword</item>
+    </style>
+
+    <style name="focus_filled_text_input_layout" parent="android:Widget.EditText">
+        <item name="android:layout_margin">@dimen/dimen10dp</item>
+        <item name="android:textColorHint">@color/white</item>
+        <item name="passwordToggleEnabled">true</item>
+        <item name="passwordToggleTint">@color/white</item>
+    </style>
+    <style name="focus_filled_text_input_et"  parent="android:Widget.EditText">
+        <item name="android:background">@drawable/focus_et</item>
+        <item name="android:hint">@string/value</item>
+        <item name="android:textColorHint">@color/white</item>
+        <item name="android:inputType">textPassword</item>
+    </style>
+
+    <style name="filled_text_input_layout" parent="android:Widget.EditText">
+        <item name="android:layout_margin">@dimen/dimen10dp</item>
+        <item name="android:textColorHint">@color/white</item>
+        <item name="passwordToggleEnabled">true</item>
+        <item name="passwordToggleTint">@color/white</item>
+    </style>
+    <style name="filled_text_input_et"  parent="android:Widget.EditText">
+        <item name="android:background">@drawable/focus_et</item>
+        <item name="android:hint">@string/value</item>
+        <item name="android:textColorHint">@color/white</item>
+        <item name="android:inputType">textPassword</item>
+    </style>
+
+    <style name="error_text_input_layout" parent="android:Widget.EditText">
+        <item name="android:layout_margin">@dimen/dimen10dp</item>
+        <item name="android:textColorHint">@color/white</item>
+        <item name="passwordToggleEnabled">true</item>
+        <item name="passwordToggleTint">@color/white</item>
+    </style>
+    <style name="error_text_input_et"  parent="android:Widget.EditText">
+        <item name="android:background">@drawable/error_et</item>
+        <item name="android:hint">@string/value</item>
+        <item name="android:textColorHint">@color/white</item>
+        <item name="android:inputType">textPassword</item>
+    </style>
+
+    <style name="success_text_input_layout" parent="android:Widget.EditText">
+        <item name="android:layout_margin">@dimen/dimen10dp</item>
+        <item name="android:textColorHint">@color/white</item>
+        <item name="passwordToggleEnabled">true</item>
+        <item name="passwordToggleTint">@color/white</item>
+    </style>
+    <style name="success_text_input_et"  parent="android:Widget.EditText">
+        <item name="android:background">@drawable/success_et</item>
+        <item name="android:hint">@string/value</item>
+        <item name="android:textColorHint">@color/white</item>
+        <item name="android:inputType">textPassword</item>
+    </style>
+
+    <style name="deactivated_text_input_layout" parent="android:Widget.EditText">
+        <item name="android:layout_margin">@dimen/dimen10dp</item>
+        <item name="android:textColorHint">@color/deactivated_et_outline</item>
+        <item name="passwordToggleEnabled">true</item>
+        <item name="passwordToggleTint">@color/white</item>
+    </style>
+    <style name="deactivated_text_input_et"  parent="android:Widget.EditText">
+        <item name="android:background">@drawable/deactivated_et</item>
+        <item name="android:hint">@string/value</item>
+        <item name="android:textColorHint">@color/deactivated_et_outline</item>
+        <item name="android:inputType">textPassword</item>
+    </style>
+
+</resources>
