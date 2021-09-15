@@ -1,148 +1,45 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="horizontal"
     tools:context=".MainActivity">
 
+
     <LinearLayout
-        android:layout_width="0dp"
-        android:layout_height="match_parent"
-        android:layout_weight="1"
-        android:orientation="vertical">
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_centerInParent="true">
+        <Button
+
+            android:id="@+id/btn_deactivated"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:backgroundTint="@color/white"
+            android:textColor="@color/black"
+            android:text="Deactivated"/>
 
         <EditText
-            android:id="@+id/et_default"
             style="@style/default_edittext"
+            android:background="@drawable/et_selector"
+            android:layout_margin="@dimen/dimen10dp"
+            android:id="@+id/et_default"
             android:layout_width="match_parent"
             android:layout_height="@dimen/dimen50dp" />
 
-        <EditText
-            android:id="@+id/et_focus"
-            style="@style/focus_edittext"
-            android:layout_width="match_parent"
-            android:layout_height="@dimen/dimen50dp" />
-
-        <EditText
-            android:id="@+id/et_focus_filled"
-            style="@style/focus_filled_edittext"
-            android:layout_width="match_parent"
-            android:layout_height="@dimen/dimen50dp"
-            android:layout_margin="@dimen/dimen10dp" />
-
-        <EditText
-            android:id="@+id/et_filled"
-            style="@style/filled_edittext"
-            android:layout_width="match_parent"
-            android:layout_height="@dimen/dimen50dp"
-            android:layout_margin="@dimen/dimen10dp" />
-
-        <EditText
-            android:id="@+id/et_error"
-            style="@style/error_edittext"
-            android:layout_width="match_parent"
-            android:layout_height="@dimen/dimen50dp"
-            android:layout_margin="@dimen/dimen10dp" />
-
-        <EditText
-            android:id="@+id/et_success"
-            style="@style/success_edittext"
-            android:layout_width="match_parent"
-            android:layout_height="@dimen/dimen50dp"
-            android:layout_margin="@dimen/dimen10dp" />
-
-        <EditText
-            android:id="@+id/et_deactivated"
-            style="@style/deactivated_edittext"
-            android:layout_width="match_parent"
-            android:layout_height="@dimen/dimen50dp"
-            android:layout_margin="@dimen/dimen10dp" />
-    </LinearLayout>
-
-    <LinearLayout
-        android:layout_width="0dp"
-        android:layout_height="match_parent"
-        android:layout_weight="1"
-        android:orientation="vertical">
         <com.google.android.material.textfield.TextInputLayout
             android:id="@+id/default_pass_et"
-            style="@style/default_text_input_layout"
+            style="@style/custom"
             android:layout_width="match_parent"
             android:layout_height="@dimen/dimen50dp">
             <com.google.android.material.textfield.TextInputEditText
-                style="@style/default_text_input_et"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent" />
-        </com.google.android.material.textfield.TextInputLayout>
 
-        <com.google.android.material.textfield.TextInputLayout
-            android:id="@+id/focus_pass_et"
-            style="@style/focus_text_input_layout"
-            android:layout_width="match_parent"
-            android:layout_height="@dimen/dimen50dp">
-            <com.google.android.material.textfield.TextInputEditText
-                style="@style/focus_text_input_et"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent" />
-        </com.google.android.material.textfield.TextInputLayout>
-
-        <com.google.android.material.textfield.TextInputLayout
-            android:id="@+id/focus_filled_pass_et"
-            style="@style/focus_filled_text_input_layout"
-            android:layout_width="match_parent"
-            android:layout_height="@dimen/dimen50dp">
-            <com.google.android.material.textfield.TextInputEditText
-                style="@style/focus_filled_text_input_et"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent" />
-        </com.google.android.material.textfield.TextInputLayout>
-
-        <com.google.android.material.textfield.TextInputLayout
-            android:id="@+id/filled_pass_et"
-            style="@style/filled_text_input_layout"
-            android:layout_width="match_parent"
-            android:layout_height="@dimen/dimen50dp">
-            <com.google.android.material.textfield.TextInputEditText
-                style="@style/filled_text_input_et"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent" />
-        </com.google.android.material.textfield.TextInputLayout>
-
-        <com.google.android.material.textfield.TextInputLayout
-            android:id="@+id/error_pass_et"
-            style="@style/error_text_input_layout"
-            android:layout_width="match_parent"
-            android:layout_height="@dimen/dimen50dp">
-            <com.google.android.material.textfield.TextInputEditText
-                style="@style/error_text_input_et"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent" />
-        </com.google.android.material.textfield.TextInputLayout>
-
-        <com.google.android.material.textfield.TextInputLayout
-            android:id="@+id/success_pass_et"
-            style="@style/success_text_input_layout"
-            android:layout_width="match_parent"
-            android:layout_height="@dimen/dimen50dp">
-            <com.google.android.material.textfield.TextInputEditText
-                style="@style/success_text_input_et"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent" />
-        </com.google.android.material.textfield.TextInputLayout>
-
-        <com.google.android.material.textfield.TextInputLayout
-            android:id="@+id/deactivated_pass_et"
-            style="@style/deactivated_text_input_layout"
-            android:layout_width="match_parent"
-            android:layout_height="@dimen/dimen50dp">
-            <com.google.android.material.textfield.TextInputEditText
-                style="@style/deactivated_text_input_et"
+                android:hint="@string/value"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent" />
         </com.google.android.material.textfield.TextInputLayout>
     </LinearLayout>
-
-
-</LinearLayout>
+</RelativeLayout>

@@ -7,7 +7,7 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
-    <color name="white_low">#D8D8D8</color>
+    <color name="white_low">#DCDCDC</color>
     <color name="default_et_outline">#808993</color>
     <color name="deactivated_et_outline">#5B5E61</color>
     <color name="focus_et_outline">#b1b7bd</color>

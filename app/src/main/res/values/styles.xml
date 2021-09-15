@@ -3,8 +3,8 @@
 
     <style name="default_edittext" parent="android:Widget.EditText">
         <item name="android:textColorHint">@color/default_et_outline</item>
+        <item name="android:textColor">@color/white</item>?  1,
         <item name="android:background">@drawable/default_et</item>
-        <item name="android:textColor">@color/default_et_outline</item>
         <item name="android:paddingLeft">@dimen/dimen15dp</item>
         <item name="android:layout_margin">@dimen/dimen10dp</item>
         <item name="android:hint">@string/value</item>
@@ -14,7 +14,7 @@
     <style name="focus_edittext" parent="android:Widget.EditText">
         <item name="android:textColorHint">@color/default_et_outline</item>
         <item name="android:background">@drawable/focus_et</item>
-        <item name="android:textColor">@color/default_et_outline</item>
+        <item name="android:textColor">@color/white</item>
         <item name="android:paddingLeft">@dimen/dimen15dp</item>
         <item name="android:layout_margin">@dimen/dimen10dp</item>
         <item name="android:hint">@string/value</item>
@@ -31,9 +31,10 @@
         <item name="singleLine">true</item>
     </style>
 
+
     <style name="filled_edittext" parent="android:Widget.EditText">
         <item name="android:textColorHint">@color/white</item>
-        <item name="android:background">@drawable/focus_et</item>
+        <item name="android:background">@drawable/filled_et</item>
         <item name="android:textColor">@color/white</item>
         <item name="android:paddingLeft">@dimen/dimen15dp</item>
         <item name="android:layout_margin">@dimen/dimen10dp</item>
@@ -160,6 +161,10 @@
         <item name="android:hint">@string/value</item>
         <item name="android:textColorHint">@color/deactivated_et_outline</item>
         <item name="android:inputType">textPassword</item>
+    </style>
+    <style name="custom" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="android:background">@drawable/default_et</item>
+        <item name="android:radius">@dimen/dimen50dp</item>
     </style>
 
 </resources>
